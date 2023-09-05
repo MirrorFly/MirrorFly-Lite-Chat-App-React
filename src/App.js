@@ -7,8 +7,8 @@ import React from 'react';
 function App() {
   const [number,setNumber] = useState("")
   const [isLogin,setisLogin] = useState(false)
-  const API_URL = "https://api-uikit-qa.contus.us/api/v1";  
-  const licenceKey = "ckIjaccWBoMNvxdbql8LJ2dmKqT5bp"
+  const API_URL = "";  //use your api url 
+  const licenceKey = ""  //use your license key
 
   React.useEffect(()=>{
     setNumber(localStorage.getItem("Number"))
