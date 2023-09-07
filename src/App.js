@@ -7,7 +7,6 @@ import React from 'react';
 function App() {
   const [number,setNumber] = useState("")
   const [isLogin,setisLogin] = useState(false)
-  const API_URL = "";  //use your api url 
   const licenceKey = ""  //use your license key
 
   React.useEffect(()=>{
@@ -57,13 +56,11 @@ return (
       <ChatApp
       width="100%" // custom width for parent container
       height ="100%"
-      licenseKey={licenceKey} 
-      apiUrl={API_URL} 
+      licenseKey={licenceKey}  
       userIdentifier={number} 
-      isSandBox={false}   //if you are a sandbox user it is true otherwise set as false
       isLogout={logOut}
       enableDeviceSize={true}
-      isCallEnabled = {false}
+      isCallEnabled = {true}
        />
       }
     
