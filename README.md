@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# MirrorFly Lite Chat App for React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MirrorFly Lite Chat App is your new go-to solution for seamless, efficient, and effortless communication.This Lite Chat App, built with our prebuilt UIKit, and ready-made user interface elements that can be seamlessly incorporated for quick chat application development.
 
-## Available Scripts
+Say goodbye to unnecessary clutter and hello to a simplified chat experience that keeps you connected with ease. The below steps help to jumpstart your integration. 
 
-In the project directory, you can run:
+ 
+## Need a License Key
 
-### `npm start`
+To integrate the Mirrorfly Lite Chat SDK into your app, you will require a license key. To obtain a license key, follow the below steps;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Step 1: New to MirrorFly? Then register [here](https://www.mirrorfly.com/contact-sales.php) to get a MirrorFly User account.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step 2: Returning user? Then [Login](https://console.mirrorfly.com) to your MirrorFly user account
 
-### `npm test`
+Step 3: From the MirrorFly console Overview Page you can find your unique License Key. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License Key Configuration
 
-### `npm run build`
+The integration process just involves the license key configuration in the initializeSDK method, that’s it.  Now you can able to build & run the demo app at ease. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### License Key Example:
+```javascript
+const licenseKey = "XXXXXXXXXXXXXXXX";
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ <ChatApp
+ licenseKey= {licenseKey}      
+ />
+```
+Great. You're now ready to utilize the essential chat features of our Mirrorfly SDK within your application. Now you need to run your app and follow the below steps to initiate chat.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 1: Create 2 users with user ID. To send and receive messages between them.
 
-### `npm run eject`
+Step 2: Initiate chat, choose a single or group chat,
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Step 3: Pick a user from the contact (from the registered user list) and start the conversations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That is it! It is as simple as it is defined above. Start experiencing MirrorFly’s Lite Chat App for React.
