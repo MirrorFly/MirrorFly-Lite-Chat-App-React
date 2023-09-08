@@ -60,7 +60,7 @@ return (
       userIdentifier={number} 
       isLogout={logOut}
       enableDeviceSize={true}
-      isCallEnabled = {true}
+      isCallEnabled = {false} 
        />
       }
     
