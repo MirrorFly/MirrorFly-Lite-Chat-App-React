@@ -40,7 +40,7 @@ return (
             name="phonenumber"
             id="Uname"
             className="input"
-            placeholder="PhoneNumber"
+            placeholder="Enter Your User ID"
             value={number}
             onChange={(e) =>{setNumber(e.target.value)}}
           /><br/><br/>
