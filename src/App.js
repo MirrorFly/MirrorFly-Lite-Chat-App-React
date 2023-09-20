@@ -34,7 +34,7 @@ return (
    <div className="login">
   <div class="imgcontainer">
   </div>
-          <label className="label">Enter your phone Number: </label>
+          <label className="label">Enter Your User ID: </label>
           <input
             type="text"
             name="phonenumber"
